@@ -1,17 +1,8 @@
-body{
-    background-color: blue;
-}
-@media only screen and (max-width: 1025px) {
-    body {
-      background-color: green;
-    }
-}
-@media only screen and (max-width: 480px) {
-    body {
-      background-color: red;
-    }
-}
+
 @media only screen and (min-width: 480px) and (max-width: 1025px) {
+    body {
+        background-color: green;
+      }
     #small {
         display: none;
     }
@@ -27,6 +18,9 @@ body{
 }
 
 @media only screen and (min-width: 1025px) {
+    body{
+        background-color: blue;
+    }
         #small {
             display: none;
         }
@@ -42,7 +36,9 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
-    
+         body {
+        background-color: red;
+          }
         #medium {
                 display: none;
             }
