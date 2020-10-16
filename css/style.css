@@ -16,18 +16,22 @@
           }
           .flex-container {
             display: flex;
+            text-align: center;
             flex-direction: row;
             width: auto;
-            border: 1px solid black;
-          }
-          .one{
-            border: 1px solid black;
+            border: 5px solid black;
+                     }
+        #one{
+            border: 1px dashed white;
+            text-align: center;
         }
-        .two{
-            border: 1px solid black;
+        #two{
+            border: 1px dashed white;
+            text-align: center;
         }
-        .three{
-            border: 1px solid black;
+        #three{
+            border: 1px dashed white; 
+            text-align: center;
         }
 }
 @media only screen and (min-width: 480px) and (max-width: 1025px) {
@@ -48,26 +52,20 @@
     }
     .flex-container{
         display: flex;
-        flex-direction: row;
-        border: 1px solid black;
+        flex-wrap: wrap;
+         border: 5px solid black;
     }
     #one{
         width: 60%;
+        border: 1px dashed white;
     }
     #two{
         width: 30%;
+        border: 1px dashed white;
     }
     #three{
         width: 100%;
-    }
-    .one{
-        border: 1px solid black;
-    }
-    .two{
-        border: 1px solid black;
-    }
-    .three{
-        border: 1px solid black;
+        border: 1px dashed white;
     }
 }
 
@@ -75,7 +73,7 @@
 
 @media only screen and (max-width: 480px) {
          body {
-        background-color: red;
+         background-color: red;
           }
         #medium {
                 display: none;
@@ -92,19 +90,18 @@
             .flex-container {
                 display: flex;
                 flex-direction: column;
-                width:20px;
-                border: 1px solid black;
+                width:auto;
+                border: 5px solid black;
+                           }
+            #one{
+                border: 1px dashed white;
             }
-            .one{
-                border: 1px solid black;
+            #two{
+                border: 1px dashed white;
             }
-            .two{
-                border: 1px solid black;
-            }
-            .three{
-                border: 1px solid black;
-            }
-                
+            #three{
+                border: 1px dashed white;
+            }    
     
 }
  
