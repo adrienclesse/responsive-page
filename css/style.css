@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1025px) {
     body{
-        background-color: blue;
+        background-color: blueviolet;
     }
         #small {
             display: none;
@@ -19,24 +19,27 @@
             text-align: center;
             flex-direction: row;
             width: auto;
-            border: 5px solid black;
                      }
         #one{
             border: 1px dashed white;
             text-align: center;
+            background-color: teal;
         }
         #two{
             border: 1px dashed white;
             text-align: center;
+            background-color: silver;
+
         }
         #three{
             border: 1px dashed white; 
             text-align: center;
+            background-color: aquamarine; 
         }
 }
 @media only screen and (min-width: 480px) and (max-width: 1025px) {
     body {
-        background-color: green;
+        background-color: greenyellow;
       }
     #small {
         display: none;
@@ -53,19 +56,21 @@
     .flex-container{
         display: flex;
         flex-wrap: wrap;
-         border: 5px solid black;
     }
     #one{
         width: 63%;
         border: 1px dashed white;
+        background-color: teal;
     }
     #two{
         width: 33%;
         border: 1px dashed white;
+        background-color: silver;
     }
     #three{
         width: 100%;
         border: 1px dashed white;
+        background-color: aquamarine;
     }
 }
 
@@ -73,7 +78,7 @@
 
 @media only screen and (max-width: 480px) {
          body {
-         background-color: red;
+         background-color: crimson;
           }
         #medium {
                 display: none;
@@ -91,16 +96,18 @@
                 display: flex;
                 flex-direction: column;
                 width:auto;
-                border: 5px solid black;
                            }
             #one{
                 border: 1px dashed white;
+                background-color: teal;
             }
             #two{
                 border: 1px dashed white;
+                background-color: silver;
             }
             #three{
                 border: 1px dashed white;
+                background-color: aquamarine;
             }    
     
 }
