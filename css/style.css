@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+}
+@media only screen and (max-width: 1025px) {
+    body {
+      background-color: green;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: red;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    #small {
+        display: none;
+    }
+    #large {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+        #small {
+            display: none;
+        }
+        #medium {
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 480px) {
+    
+        #medium {
+                display: none;
+            }
+        #large {
+                display: none;
+            }
+    }
