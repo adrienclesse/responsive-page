@@ -11,22 +11,34 @@ body{
       background-color: red;
     }
 }
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (min-width: 480px) and (max-width: 1025px) {
     #small {
         display: none;
     }
     #large {
         display: none;
     }
+    h1 {
+        font-size: large;
+    }
+    p {
+        font-size: medium;
+    }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
         #small {
             display: none;
         }
         #medium {
             display: none;
         }
+        h1 {
+            font-size: xx-large;
+        }
+          p {
+              font-size: x-large;
+          }
 }
 
 @media only screen and (max-width: 480px) {
@@ -36,5 +48,11 @@ body{
             }
         #large {
                 display: none;
+            }
+            h1 {
+                font-size: small;
+            }
+            p {
+                font-size: x-small;
             }
     }
