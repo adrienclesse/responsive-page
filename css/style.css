@@ -1,6 +1,7 @@
 @media only screen and (min-width: 1025px) {
     body{
-        background-color: blueviolet;
+        background-color: #39CCCC
+        ;
     }
         #small {
             display: none;
@@ -39,7 +40,7 @@
 }
 @media only screen and (min-width: 480px) and (max-width: 1025px) {
     body {
-        background-color: greenyellow;
+        background-color: #01FF70;
       }
     #small {
         display: none;
