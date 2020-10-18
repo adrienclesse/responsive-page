@@ -59,12 +59,12 @@
         flex-wrap: wrap;
     }
     #one{
-        width: 63%;
+        width: 65%;
         border: 1px dashed white;
         background-color: teal;
     }
     #two{
-        width: 33%;
+        width: 35%;
         border: 1px dashed white;
         background-color: silver;
     }
